@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapphire Landing Page</title>
+    <link rel="shortcut icon" href = "/img/logo.png"/>
+    <link rel ="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#" class="logo"><img src="img/logo.png"></a>
+            <div class ="toggleMenu" onclick="menuToggle();"></div>
+            <ul class = "navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class = "textBox">
+                <h2>Delicious and Refreshing...<br>It's <span>Sapphire</span></h2>
+                <p>Mix of flavors... It's a blend of different ingredients that create something spectacular.</p>
+                <a href="#">View More</a>
+            </div>
+            <div class ="imgBox">
+                <img src="img/drink1.png" class="Sapphire">
+            </div>
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="img/drink1.png" onclick="imgSlider('img/drink1.png'); changeBgColor('#00BFFF')"></li>
+            <li><img src="img/drink2.png" onclick="imgSlider('img/drink2.png'); changeBgColor('#00CC66')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="img/facebook.png"></a></li>
+            <li><a href="#"><img src="img/twitter.png"></a></li>
+            <li><a href="#"><img src="img/instagram.png"></a></li>
+        </ul>
+    </section>
+    <script src="main.js/javascript.js"></script>
+</body>
+</html>
